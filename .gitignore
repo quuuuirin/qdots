@@ -1,5 +1,5 @@
-# Ignore all
-*
+# Ignore all in .config
+dotfiles/.config/*
 
 # Whitelist 
 !.gitignore
