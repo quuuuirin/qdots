@@ -1,0 +1,1 @@
+Repository for Archinstall and riced Dotfiles

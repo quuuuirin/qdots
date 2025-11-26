@@ -1,0 +1,24 @@
+# Ignore all
+*
+
+# Whitelist 
+!.gitignore
+!archinstall/**
+!dotfiles/
+!dotfiles/README.md
+!dotfiles/.zshrc
+!dotfiles/wallpapers/**
+!dotfiles/.config/cava/**
+!dotfiles/.config/fastfetch/**
+!dotfiles/.config/gtk-3.0/**
+!dotfiles/.config/gtk-4.0/**
+!dotfiles/.config/hypr/**
+!dotfiles/.config/kitty/**
+!dotfiles/.config/matugen/**
+!dotfiles/.config/rofi/**
+!dotfiles/.config/swaync/**
+!dotfiles/.config/swaync 0.12/**
+!dotfiles/.config/waybar
+!dotfiles/.config/wlogout
+!.git
+!README.md
