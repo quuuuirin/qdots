@@ -2,12 +2,6 @@
 dotfiles/.config/*
 
 # Whitelist 
-!.gitignore
-!archinstall/**
-!dotfiles/
-!dotfiles/README.md
-!dotfiles/.zshrc
-!dotfiles/wallpapers/**
 !dotfiles/.config/cava/**
 !dotfiles/.config/fastfetch/**
 !dotfiles/.config/gtk-3.0/**
@@ -20,5 +14,3 @@ dotfiles/.config/*
 !dotfiles/.config/swaync 0.12/**
 !dotfiles/.config/waybar/
 !dotfiles/.config/wlogout/
-!.git
-!README.md
