@@ -1,5 +1,5 @@
 # Ignore all
-*
+#*
 
 # Whitelist 
 !.gitignore
