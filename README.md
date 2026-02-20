@@ -1,40 +1,28 @@
 Repository for Archinstall and riced Dotfiles
 
-
 connection=wired
-
-dhcp=yes
-
+netmask=255.255.255.0
+ip_address=172.30.106.160
+default_gateway=172.30.106.1
+dns_server=172.30.104.3 172.30.104.29
+network_interface=eth0
 browser=firefox
-
-client_id=automatic
-
-homepage=https://www.sekeinshoefe.ch/infoscreen-weid/
-
-hostname=Infoscreen01
-
+homepage_check=Homepage is not available - please contact your administrator
+homepage=https://www.hoefe.ch/infoscreen-bezirk-hoefe
+hostname=INFOSCREEN01
 allow_icmp_protocol=yes
-
 primary_keyboard_layout=ch
-
+hide_mouse=yes
 disable_navigation_bar=yes
-
-kiosk_config=172.18.145.89://test-config
-
+scheduled_action=Monday-23:30 Tuesday-23:30 Wednesday-23:30 Thursday-23:30 Friday-23:30 Saturday-23:30 Sunday-23:30 action:reboot
 refresh_webpage=180
-
 removable_devices=yes
-
-root_password=Init1234567890!!
-
-kiosk_server=172.18.145.89:443
-
-shutdown_menu=reboot restart-session shutdown 
-
-vnc_password=12345678
-
+root_password=1234
+shutdown_menu=lock reboot restart-session shutdown sleep 
+timezone=Europe/Zurich
+vnc_password=1234
+vnc_port=5900
+wallpaper=https://porteus-kiosk.org/public/wallpapers/sample.jpg
 wake_on_lan=yes
-
-disable_zoom_controls=yes
-
+browser_zoom_level=2.0
 additional_components=09-x11vnc.xzm uefi.zip 08-ssh.xzm
